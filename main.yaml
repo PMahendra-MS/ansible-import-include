@@ -1,0 +1,5 @@
+- name: include-vs-import
+  hosts: loacl
+  connection: loacl
+  roles:
+  - role-1
