@@ -1,5 +1,7 @@
 - name: include-vs-import
   hosts: local
   connection: local
+  vars:
+    OS: RedHat
   roles:
   - role-1
