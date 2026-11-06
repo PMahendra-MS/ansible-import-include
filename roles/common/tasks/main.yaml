@@ -7,6 +7,10 @@
   debug:
     msg: "Hi from MSG-2"
 
+- name: change the variable
+  set_fact: 
+    OS: "Debian"
+
 
 - name: msg-3
   debug:
